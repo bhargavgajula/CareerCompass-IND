@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Compass - Student Career Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Career Compass</h1>
+    <p>Explore comprehensive career opportunities for students after 10th, 12th, and degree completion</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-level="10th">
+      <i class="fas fa-school"></i> After 10th
+    </button>
+    <button class="tab-btn" data-level="12th">
+      <i class="fas fa-book-open"></i> After 12th
+    </button>
+    <button class="tab-btn" data-level="degree">
+      <i class="fas fa-graduation-cap"></i> After Degree
+    </button>
+  </div>
+
+  <div class="level-description" id="level-description">
+    <!-- Level description will be inserted here -->
+  </div>
+
+  <div class="content-container">
+    <div class="paths-container" id="paths-container">
+      <!-- Career paths will be inserted here -->
+    </div>
+
+    <div class="path-details" id="path-details" style="display: none;">
+      <!-- Selected path details will be inserted here -->
+    </div>
+
+    <div class="subpath-details" id="subpath-details" style="display: none;">
+      <!-- Selected subpath details will be inserted here -->
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
